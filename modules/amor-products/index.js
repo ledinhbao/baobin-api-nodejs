@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AmorProductMutationFields = exports.AmorProductMutation = exports.AmorProductModel = exports.AmorProductType = exports.AmorProductQueryFields = exports.AmorProductQuery = void 0;
+var query_1 = require("./query");
+Object.defineProperty(exports, "AmorProductQuery", { enumerable: true, get: function () { return query_1.query; } });
+Object.defineProperty(exports, "AmorProductQueryFields", { enumerable: true, get: function () { return query_1.queryFields; } });
+var types_1 = require("./types");
+Object.defineProperty(exports, "AmorProductType", { enumerable: true, get: function () { return types_1.typeDef; } });
+var models_1 = require("./models");
+Object.defineProperty(exports, "AmorProductModel", { enumerable: true, get: function () { return models_1.model; } });
+var mutation_1 = require("./mutation");
+Object.defineProperty(exports, "AmorProductMutation", { enumerable: true, get: function () { return mutation_1.mutation; } });
+Object.defineProperty(exports, "AmorProductMutationFields", { enumerable: true, get: function () { return mutation_1.mutationFields; } });
